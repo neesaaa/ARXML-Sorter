@@ -15,3 +15,13 @@ The program includes Three user-defined exceptions:
 * InputSample.arxml: This is a normal ARXML file for testing the normal case.
 * emptyFile.arxml: This is an empty ARXML file for testing the empty file case.
 * text.txt: This is a Word document for testing the wrong extension case.
+
+### How to Run
+1- Clone or download the repository.
+2- Open the command prompt or terminal and navigate to the project directory.
+3- Run the following commands
+:
+java -cp bin project.main InputSample.arxml
+javac -d bin *.java
+java -cp bin project.main <arxml file direction>
+  :
