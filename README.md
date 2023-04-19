@@ -18,10 +18,26 @@ The program includes Three user-defined exceptions:
 
 ### How to Run
 1- Clone or download the repository.
+
 2- Open the command prompt or terminal and navigate to the project directory.
+
 3- Run the following commands
-:
+
+
+```
 java -cp bin project.main InputSample.arxml
 javac -d bin *.java
 java -cp bin project.main <arxml file direction>
-  :
+```
+
+### Example for last command
+```
+java -cp bin project.main D:\ARXMLSorter\InputSample.arxml
+```
+### Batch File
+A batch file run.bat is included in the repository to simplify the running of the program. The batch file includes the following cases:
+
+* Normal case - provide the input file and specify its name inside the batch script.
+* Not valid Autosar file case - provide the file also.
+* Empty file.
+  
